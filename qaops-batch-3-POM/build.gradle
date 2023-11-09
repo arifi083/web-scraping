@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group 'webAutomationWithSelenium'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.testng:testng:7.6.1'
+
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.5.0'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.3.0'
+    // https://mvnrepository.com/artifact/com.relevantcodes/extentreports
+    implementation 'com.relevantcodes:extentreports:2.41.2'
+
+    //POI
+    testImplementation 'org.apache.poi:poi:5.2.2'
+    testImplementation 'org.apache.poi:poi-ooxml:5.2.2'
+
+    //Allure Reporting
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.17.3'
+
+    //lorem
+    // https://mvnrepository.com/artifact/com.thedeanda/lorem
+    implementation group: 'com.thedeanda', name: 'lorem', version: '2.1'
+
+
+
+}
+
+test {
+    useTestNG()
+}

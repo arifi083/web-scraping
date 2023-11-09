@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 15 20:51:02 BDT 2023","Sun Jan 15 20:51:04 BDT 2023","2062","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","loginWithInValidCredentials","loginWithInValidCredentials",""
+"passed","Sun Jan 15 21:05:40 BDT 2023","Sun Jan 15 21:05:49 BDT 2023","8972","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","partialValidCredentials","partialValidCredentials",""
+"passed","Sun Jan 15 21:05:28 BDT 2023","Sun Jan 15 21:05:31 BDT 2023","2697","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","loginWithInValidCredentials","loginWithInValidCredentials",""
+"passed","Sun Jan 15 17:07:22 BDT 2023","Sun Jan 15 17:07:24 BDT 2023","2015","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","loginWithInValidCredentials","loginWithInValidCredentials",""
+"passed","Sun Jan 15 17:33:45 BDT 2023","Sun Jan 15 17:33:47 BDT 2023","2033","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","loginWithInValidCredentials","loginWithInValidCredentials",""
+"skipped","Sun Jan 15 17:35:59 BDT 2023","Sun Jan 15 17:35:59 BDT 2023","4","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","loginWithInValidCredentials","loginWithInValidCredentials",""
+"passed","Sun Jan 15 21:06:05 BDT 2023","Sun Jan 15 21:06:08 BDT 2023","2731","Gradle suite","Gradle test","testcases.LoginTest","testcases.LoginTest","loginWithValidCredentials","loginWithValidCredentials",""
